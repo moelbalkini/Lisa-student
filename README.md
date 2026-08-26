@@ -8,11 +8,11 @@ A beginner-friendly introduction to single-cell RNA sequencing with **Cell Range
 |---|---|
 | **Audience** | Life-science students with little or no bioinformatics experience |
 | **Format** | Guided demonstration + hands-on R analysis (~2 hours) |
-| **Instructor** | Mohamed Elbalkini · MHH / TWINCORE |
+| **Instructors** | Mohamed Elbalkini · Imke Hinrichs · Abdus Salam — MHH / TWINCORE |
 
 > This is the student handout. It contains the concepts, commands, exercises and troubleshooting notes you need to follow along. Code blocks can be copied straight into the terminal or RStudio. The full instructor script is in [`LISA_scRNA_Workshop_WetLab_to_Seurat.docx`](LISA_scRNA_Workshop_WetLab_to_Seurat.docx).
 
-> **Companion practical:** [**Integration — with vs. without**](integration_comparison.md) — a hands-on exercise on public data that installs the needed packages and compares clustering with and without batch integration.
+> **Companion practical series** (public data, hands-on, Seurat v5): [**overview**](integration_comparison.md) → [Part 1 — Setup](practical_part1_setup.md) → [Part 2 — Analysis (with vs. without integration)](practical_part2_analysis.md) → [Part 3 — Differential expression](practical_part3_differential_expression.md).
 
 ---
 
