@@ -12,6 +12,8 @@ A beginner-friendly introduction to single-cell RNA sequencing with **Cell Range
 
 > This is the student handout. It contains the concepts, commands, exercises and troubleshooting notes you need to follow along. Code blocks can be copied straight into the terminal or RStudio. The full instructor script is in [`LISA_scRNA_Workshop_WetLab_to_Seurat.docx`](LISA_scRNA_Workshop_WetLab_to_Seurat.docx).
 
+> **Companion practical:** [**Integration — with vs. without**](integration_comparison.md) — a hands-on exercise on public data that installs the needed packages and compares clustering with and without batch integration.
+
 ---
 
 ## Learning outcomes
@@ -453,7 +455,7 @@ DimPlot(pbmc, label = TRUE, repel = TRUE) + NoLegend()
 - **Multiple samples:** `cellranger multi`, or one count per GEM well followed by sample-aware R workflows.
 - **Ambient RNA correction:** tools such as SoupX or CellBender, using raw and filtered matrices.
 - **Doublet detection:** combine computational scores with expected loading and marker incompatibility.
-- **Batch-aware integration:** Harmony, Seurat integration or other methods — only after examining study design.
+- **Batch-aware integration:** Harmony, Seurat integration or other methods — only after examining study design. → worked example: [`integration_comparison.md`](integration_comparison.md).
 - **Differential expression:** pseudobulk aggregation by sample and cell type for group-level inference.
 - **TCR/BCR analysis:** use the appropriate V(D)J pipeline and connect clonotypes to transcriptomic cells.
 
