@@ -157,6 +157,19 @@ Prepare **five short slides** (or five points on one page). Use the UMAP and Dot
 
 ---
 
+## Before you leave — give us feedback
+
+When your group has presented, please take **2 minutes** to fill in the anonymous feedback form. It genuinely shapes the next run of the workshop.
+
+<p align="center">
+  <img src="feedback/feedback_qr.png" alt="QR code linking to the feedback form" width="230"><br>
+  <strong>Scan the QR code</strong> or open <a href="https://form.jotform.com/262382549939069">form.jotform.com/262382549939069</a>
+</p>
+
+*(Instructors: a printable full-page version is in `feedback/feedback_card.html` — open it and put it on the projector as the closing slide.)*
+
+---
+
 ## Files in this folder
 
 | File | What it is |
@@ -164,5 +177,6 @@ Prepare **five short slides** (or five points on one page). Use the UMAP and Dot
 | `README.md` | This worksheet (student-facing). |
 | `analyse_your_dataset.R` | Ready-to-run analysis template — change one line to your group. |
 | `datasets/group_A … _D/` | The four group datasets in 10x format. |
-| `INSTRUCTOR_KEY.md` | Ground truth and facilitation notes — **instructors only**. |
-| `generate_datasets.py` | How the datasets were made (provenance / reproducibility). |
+| `feedback/` | Feedback QR code (`.png`/`.svg`) and a printable closing slide (`feedback_card.html`). |
+
+*(The answer key and solution code live separately, in an instructor-only folder — not here.)*

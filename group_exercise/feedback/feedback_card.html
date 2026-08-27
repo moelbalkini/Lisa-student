@@ -1,0 +1,28 @@
+<title>LISA Workshop Feedback — Scan Card</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap">
+<style>
+ :root{--bg:#FAF8F4;--surface:#fff;--ink:#1C1B29;--muted:#6A6879;--line:#E4E0D8;--accent:#5B4B8A;--teal:#2F7E7E}
+ @media (prefers-color-scheme:dark){:root:not([data-theme=light]){--bg:#131220;--surface:#1C1B2B;--ink:#ECEAF4;--muted:#A5A2B8;--line:#302E44;--accent:#A594E0;--teal:#5FB4B0}}
+ :root[data-theme=dark]{--bg:#131220;--surface:#1C1B2B;--ink:#ECEAF4;--muted:#A5A2B8;--line:#302E44;--accent:#A594E0;--teal:#5FB4B0}
+ *{box-sizing:border-box}
+ body{margin:0;background:var(--bg);color:var(--ink);font-family:"IBM Plex Sans",system-ui,sans-serif;min-height:100vh;display:flex;align-items:center;justify-content:center;padding:6vmin}
+ .card{background:var(--surface);border:1px solid var(--line);border-radius:22px;padding:7vmin 7vmin 6vmin;max-width:620px;width:100%;text-align:center;box-shadow:0 30px 70px -30px rgba(28,27,41,.35)}
+ .eyebrow{font-family:"IBM Plex Mono",monospace;font-size:13px;letter-spacing:.18em;text-transform:uppercase;color:var(--teal);margin:0 0 14px}
+ h1{font-family:"Newsreader",Georgia,serif;font-weight:500;font-size:clamp(30px,6vmin,46px);line-height:1.08;margin:0;text-wrap:balance;letter-spacing:-.01em}
+ p.lead{color:var(--muted);font-size:clamp(15px,2.4vmin,18px);margin:14px auto 0;max-width:34ch}
+ .qr{width:min(58vmin,340px);height:min(58vmin,340px);margin:6vmin auto 4vmin;padding:20px;background:#fff;border:1px solid var(--line);border-radius:18px}
+ .cta{font-weight:600;font-size:clamp(17px,3vmin,22px);margin:0}
+ .url{font-family:"IBM Plex Mono",monospace;font-size:14px;color:var(--muted);margin:10px 0 0;word-break:break-all}
+ .foot{margin:5vmin 0 0;font-size:13px;color:var(--muted);border-top:1px solid var(--line);padding-top:18px}
+ @media print{body{background:#fff;padding:0}.card{border:none;box-shadow:none}}
+</style>
+<div class="card">
+  <p class="eyebrow">LISA &middot; scRNA-seq workshop</p>
+  <h1>How did we do?</h1>
+  <p class="lead">Two minutes of anonymous feedback helps us improve the next single-cell workshop.</p>
+  <div class="qr"><svg preserveAspectRatio="xMidYMid meet" style="width:100%;height:100%;display:block" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 37 37" class="segno"><path fill="#fff" d="M0 0h37v37h-37z"/><path class="qrline" stroke="#1c1b29" d="M0 0.5h7m1 0h1m3 0h5m1 0h1m1 0h3m3 0h1m1 0h1m1 0h7m-37 1h1m5 0h1m1 0h1m2 0h1m1 0h3m4 0h1m4 0h1m1 0h2m1 0h1m5 0h1m-37 1h1m1 0h3m1 0h1m1 0h2m3 0h3m5 0h3m2 0h1m1 0h1m1 0h1m1 0h3m1 0h1m-37 1h1m1 0h3m1 0h1m2 0h1m1 0h2m1 0h4m2 0h1m3 0h2m4 0h1m1 0h3m1 0h1m-37 1h1m1 0h3m1 0h1m3 0h3m1 0h2m3 0h1m2 0h1m3 0h1m3 0h1m1 0h3m1 0h1m-37 1h1m5 0h1m1 0h5m1 0h1m2 0h2m2 0h1m2 0h1m2 0h2m1 0h1m5 0h1m-37 1h7m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h7m-29 1h3m1 0h1m2 0h1m1 0h1m2 0h1m2 0h1m4 0h1m-27 1h3m1 0h1m1 0h1m4 0h5m6 0h1m4 0h3m2 0h3m-37 1h6m3 0h2m1 0h2m1 0h6m4 0h1m1 0h1m1 0h1m3 0h2m-35 1h2m1 0h1m1 0h2m2 0h1m3 0h1m2 0h1m1 0h2m1 0h1m2 0h5m1 0h2m3 0h2m-37 1h2m1 0h1m1 0h1m1 0h1m1 0h1m2 0h2m2 0h1m1 0h1m2 0h1m4 0h2m2 0h1m1 0h2m1 0h1m-36 1h1m4 0h2m1 0h2m1 0h2m1 0h3m1 0h3m1 0h1m2 0h2m1 0h5m1 0h1m1 0h1m-37 1h3m2 0h1m1 0h1m1 0h1m1 0h2m4 0h3m1 0h3m5 0h1m3 0h2m-35 1h1m1 0h1m2 0h4m1 0h3m2 0h1m2 0h1m4 0h1m1 0h1m1 0h1m1 0h1m1 0h3m1 0h2m-37 1h2m1 0h1m3 0h1m1 0h2m4 0h1m1 0h1m1 0h4m1 0h1m4 0h1m1 0h2m-31 1h1m2 0h2m1 0h1m1 0h6m1 0h5m1 0h5m1 0h2m1 0h1m1 0h1m1 0h1m-36 1h3m1 0h1m3 0h3m4 0h1m2 0h4m1 0h2m2 0h2m1 0h1m2 0h1m-33 1h1m1 0h1m1 0h2m2 0h3m1 0h1m3 0h2m2 0h3m2 0h1m2 0h1m1 0h1m2 0h2m-37 1h1m1 0h1m4 0h3m1 0h1m4 0h1m2 0h3m1 0h1m4 0h1m3 0h2m2 0h1m-35 1h1m2 0h2m2 0h3m4 0h1m5 0h1m2 0h1m1 0h1m2 0h5m-34 1h2m2 0h1m2 0h2m3 0h1m6 0h7m2 0h1m1 0h1m2 0h2m-33 1h1m1 0h3m2 0h1m1 0h1m1 0h3m4 0h7m2 0h1m3 0h1m1 0h1m-37 1h2m2 0h2m1 0h2m1 0h1m2 0h1m1 0h1m4 0h3m1 0h2m4 0h2m4 0h1m-35 1h2m2 0h7m2 0h1m1 0h2m3 0h3m1 0h1m1 0h1m1 0h7m-37 1h5m4 0h1m1 0h1m1 0h3m3 0h4m6 0h1m3 0h2m-35 1h1m5 0h3m1 0h3m2 0h1m1 0h1m1 0h1m2 0h6m2 0h3m2 0h2m-37 1h1m1 0h1m2 0h1m4 0h2m4 0h1m2 0h1m2 0h2m4 0h2m3 0h1m-34 1h1m1 0h1m3 0h3m1 0h1m2 0h1m1 0h2m1 0h3m1 0h2m1 0h8m1 0h2m-28 1h1m1 0h1m1 0h3m2 0h2m3 0h4m2 0h1m3 0h1m2 0h1m-36 1h7m2 0h1m2 0h1m2 0h1m1 0h3m1 0h1m4 0h1m1 0h1m1 0h1m1 0h2m1 0h2m-37 1h1m5 0h1m2 0h3m1 0h3m1 0h2m7 0h3m3 0h1m2 0h1m-36 1h1m1 0h3m1 0h1m1 0h1m2 0h3m1 0h1m4 0h1m4 0h1m1 0h6m1 0h2m-36 1h1m1 0h3m1 0h1m1 0h1m1 0h4m3 0h3m2 0h1m1 0h1m2 0h2m1 0h1m1 0h1m1 0h1m-35 1h1m1 0h3m1 0h1m1 0h3m2 0h4m1 0h2m2 0h1m2 0h1m3 0h1m3 0h2m1 0h1m-37 1h1m5 0h1m2 0h10m1 0h1m1 0h1m1 0h1m2 0h5m4 0h1m-37 1h7m2 0h2m3 0h2m1 0h1m1 0h1m1 0h2m2 0h1m4 0h7"/></svg></div>
+  <p class="cta">Scan to give feedback</p>
+  <p class="url">https://form.jotform.com/262382549939069</p>
+  <p class="foot">Anonymous &middot; no login needed &middot; takes ~2 minutes</p>
+</div>
